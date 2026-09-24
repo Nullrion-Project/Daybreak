@@ -1,0 +1,145 @@
+{
+  "texturePath": "textures/basic-farming.png",
+  "textureWidth": 208,
+  "textureHeight": 208,
+  "tileWidth": 16,
+  "tileHeight": 16,
+  "tiles": {
+    "Char_IdleDown": {
+      "x": 0,
+      "y": 0
+    },
+    "Char_WalkDown1": {
+      "x": 1,
+      "y": 0
+    },
+    "Char_WalkDown2": {
+      "x": 2,
+      "y": 0
+    },
+    "Char_IdleUp": {
+      "x": 4,
+      "y": 0
+    },
+    "Char_WalkUp1": {
+      "x": 3,
+      "y": 0
+    },
+    "Char_WalkUp2": {
+      "x": 5,
+      "y": 0
+    },
+    "Char_IdleSide": {
+      "x": 6,
+      "y": 0
+    },
+    "Char_WalkSide1": {
+      "x": 7,
+      "y": 0
+    },
+    "Char_WalkSide2": {
+      "x": 8,
+      "y": 0
+    },
+    "PlainGrass": {
+      "x": 12,
+      "y": 5
+    },
+    "GrassFlowers": {
+      "x": 1,
+      "y": 6
+    },
+    "TilledSoil": {
+      "x": 4,
+      "y": 7
+    },
+    "DirtPath_Center": {
+      "x": 8,
+      "y": 7
+    },
+    "Fence_HR": {
+      "x": 8,
+      "y": 6
+    },
+    "Fence_RH": {
+      "x": 8,
+      "y": 7
+    },
+    "Fence_R": {
+      "x": 9,
+      "y": 7
+    },
+    "Fence_H": {
+      "x": 7,
+      "y": 7
+    },
+    "Fence_V": {
+      "x": 7,
+      "y": 6
+    },
+    "Egg": {
+      "x": 7,
+      "y": 2
+    },
+    "Carrot": {
+      "x": 8,
+      "y": 2
+    },
+    "Cabbage": {
+      "x": 0,
+      "y": 3
+    },
+    "Tile_R7_C5": {
+      "x": 5,
+      "y": 7
+    },
+    "Tile_R7_C3": {
+      "x": 3,
+      "y": 7
+    },
+    "Tile_R6_C4": {
+      "x": 4,
+      "y": 6
+    },
+    "Tile_R8_C4": {
+      "x": 4,
+      "y": 8
+    },
+    "Tile_R6_C3": {
+      "x": 3,
+      "y": 6
+    },
+    "Tile_R6_C5": {
+      "x": 5,
+      "y": 6
+    },
+    "Tile_R8_C3": {
+      "x": 3,
+      "y": 8
+    },
+    "Tile_R8_C5": {
+      "x": 5,
+      "y": 8
+    },
+    "Tile_R3_C10": {
+      "x": 10,
+      "y": 3
+    },
+    "Tile_R4_C5": {
+      "x": 5,
+      "y": 4
+    },
+    "Tile_R7_C12": {
+      "x": 12,
+      "y": 7
+    },
+    "Tile_R6_C12": {
+      "x": 12,
+      "y": 6
+    },
+    "Tile_R6_C10": {
+      "x": 10,
+      "y": 6
+    }
+  }
+}

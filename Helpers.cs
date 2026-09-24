@@ -58,6 +58,8 @@ namespace Daybreak.Helpers
 
         private SDL_Texture* _currentTexture = null;
 
+        const float bleedInset = 0.02f;
+
         public DrawRectBatch(SDL_Renderer* renderer, SDL_Window* window, int initialRectCapacity = 512)
         {
             Renderer = renderer;
@@ -178,10 +180,10 @@ namespace Daybreak.Helpers
             float u0 = 0, v0 = 0, u1 = 0, v1 = 0;
             if (hasTexture)
             {
-                u0 = srcRect.x / texWidth;
-                v0 = srcRect.y / texHeight;
-                u1 = (srcRect.x + srcRect.w) / texWidth;
-                v1 = (srcRect.y + srcRect.h) / texHeight;
+                u0 = (srcRect.x + bleedInset) / texWidth;
+                v0 = (srcRect.y + bleedInset) / texHeight;
+                u1 = (srcRect.x + srcRect.w - bleedInset) / texWidth;
+                v1 = (srcRect.y + srcRect.h - bleedInset) / texHeight;
             }
 
             if (flipMode == SDL_FlipMode.SDL_FLIP_HORIZONTAL) (u1, u0) = (u0, u1);

@@ -20,7 +20,7 @@ namespace Daybreak.UI
 
         public static UDim UseOffset(float xOffset, float yOffset) => new(){xScale=0, yScale=0, xOffset=xOffset, yOffset=yOffset};
         public static UDim UseScale(float xScale, float yScale) => new(){xScale=xScale, yScale=yScale, xOffset=0, yOffset=0};
-        public static UDim Zero() => new(){xScale=0, yScale=0, xOffset=0, yOffset=0};
+        public static UDim Zero => new(){xScale=0, yScale=0, xOffset=0, yOffset=0};
 
         public static UDim CalcAbs(UDim udim, int sw, int sh) => new()
             {
